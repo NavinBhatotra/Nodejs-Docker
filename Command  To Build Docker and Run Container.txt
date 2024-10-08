@@ -1,0 +1,14 @@
+1) docker build -t bhatotranavin/nodejs-docker-demo .
+This will build a docker image
+
+2) docker images
+This will list the docker images
+
+3) docker run --name nodejs-container-image -p 80:8080 -d bhatotranavin/nodejs-docker-demo
+This will create container and run app
+
+4) docker ps 
+This will list the containers
+
+5) docker stop container_id
+This will stop running container
